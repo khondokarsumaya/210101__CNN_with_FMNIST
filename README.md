@@ -49,9 +49,20 @@ project_folder/<br>
 ### Training Results
 
 The model was trained for 10 epochs on the Fashion MNIST training set.
+### Training Log (Per Epoch)
+Epoch [1/10], Train Loss: 0.6171, Val Loss: 0.3951, Train Acc: 0.8611, Val Acc: 0.8536<br>
+Epoch [2/10], Train Loss: 0.4116, Val Loss: 0.3460, Train Acc: 0.8853, Val Acc: 0.8722<br>
+Epoch [3/10], Train Loss: 0.3562, Val Loss: 0.3240, Train Acc: 0.8934, Val Acc: 0.8784<br>
+Epoch [4/10], Train Loss: 0.3247, Val Loss: 0.3044, Train Acc: 0.9013, Val Acc: 0.8876<br>
+Epoch [5/10], Train Loss: 0.3008, Val Loss: 0.2791, Train Acc: 0.9154, Val Acc: 0.8988<br>
+Epoch [6/10], Train Loss: 0.2816, Val Loss: 0.2708, Train Acc: 0.9181, Val Acc: 0.9027<br>
+Epoch [7/10], Train Loss: 0.2648, Val Loss: 0.2596, Train Acc: 0.9257, Val Acc: 0.9073<br>
+Epoch [8/10], Train Loss: 0.2508, Val Loss: 0.2637, Train Acc: 0.9258, Val Acc: 0.9042<br>
+Epoch [9/10], Train Loss: 0.2383, Val Loss: 0.2594, Train Acc: 0.9317, Val Acc: 0.9055<br>
+Epoch [10/10], Train Loss: 0.2280, Val Loss: 0.2458, Train Acc: 0.9388, Val Acc: 0.9112<br>
 
 **Training Logs (Final Epoch)**  
-Epoch [10/10] Loss: 0.2154, Train Acc: 0.9245, Val Acc: 0.9102<br>
+Epoch [10/10], Train Loss: 0.2280, Val Loss: 0.2458, Train Acc: 0.9388, Val Acc: 0.911
 
 
 **Observations**
@@ -64,12 +75,13 @@ Epoch [10/10] Loss: 0.2154, Train Acc: 0.9245, Val Acc: 0.9102<br>
 ### Training Plots
 
 **Training Loss vs Epochs**  
+<img width="855" height="393" alt="download" src="https://github.com/user-attachments/assets/beec54ee-d567-4e48-9a93-75762eabd7d0" />
 
-![Training Loss](<path_to_training_loss_plot.png>)
 
 **Training Accuracy vs Epochs**  
 
-![Training Accuracy](<path_to_training_accuracy_plot.png>)
+<img width="855" height="393" alt="download" src="https://github.com/user-attachments/assets/3b8b9955-18f2-486c-a03d-518de5e8acdd" />
+
 
 These plots demonstrate effective learning behavior and stable optimization.
 
@@ -81,7 +93,7 @@ These plots demonstrate effective learning behavior and stable optimization.
 
 A confusion matrix was generated on the Fashion MNIST test dataset to analyze per-class performance.
 
-![Confusion Matrix](<path_to_confusion_matrix.png>)
+<img width="788" height="701" alt="download" src="https://github.com/user-attachments/assets/1adc7c94-d306-4ba7-a917-069c91d57005" />
 
 **Key Observations**
 - Strong performance on structured clothing items (T-shirt, Shirt, Coat)
@@ -108,8 +120,9 @@ Three misclassified samples from the Fashion MNIST test set were visualized, sho
 The trained model was evaluated on custom images stored in `210101__CNN_with_FMNIST/dataset/`.  
 
 **Example Predictions**:
+<img width="1189" height="608" alt="download" src="https://github.com/user-attachments/assets/d5549aad-827d-4be8-90fd-7a1bd1e25a01" />
 
-![Custom Predictions](<path_to_custom_predictions.png>)
+
 
 **Observations**
 - Certain classes (e.g., Sandal, Bag) classified with high confidence  
