@@ -94,7 +94,8 @@ A confusion matrix was generated on the Fashion MNIST test dataset to analyze pe
 
 Three misclassified samples from the Fashion MNIST test set were visualized, showing:
 
-![Error Analysis](<path_to_error_analysis.png>)
+<img width="990" height="376" alt="download" src="https://github.com/user-attachments/assets/d9ade8eb-bc16-430d-99f4-56fe310a0d9d" />
+
 
 **Observations**
 - Helps identify model’s weak points
